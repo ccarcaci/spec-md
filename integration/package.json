@@ -21,5 +21,8 @@
   "homepage": "https://github.com/ccarcaci/spec-md#readme",
   "dependencies": {
     "@bitacode/spec-md": "file:bitacode-spec-md-3.0.2.tgz"
+  },
+  "volta": {
+    "node": "16.18.0"
   }
 }
