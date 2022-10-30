@@ -89,6 +89,8 @@ function flattener(array, item) {
   return array;
 }
 
-module.exports = importAST
-module.exports = parseSpecMD
-module.exports = flattenDocuments
+module.exports = {
+  importAST,
+  parseSpecMD,
+  flattenDocuments
+}

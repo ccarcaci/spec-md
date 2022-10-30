@@ -5,4 +5,7 @@ out
 node_modules
 npm-debug.log
 /src/generated
+
 .idea
+bitacode-spec-md*.tgz
+build

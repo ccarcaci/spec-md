@@ -1,0 +1,25 @@
+{
+  "name": "@bitacode/spec-md-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "preinstall": "npm uninstall @bitacode/spec-md; cd ..; npm install; npm pack --pack-destination integration; cd integration; npm install bitacode-spec-md-3.0.2.tgz",
+    "start": "tsc; node build/index.js",
+    "test": "tsc; node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ccarcaci/spec-md.git"
+  },
+  "author": "ccarcaci",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ccarcaci/spec-md/issues"
+  },
+  "homepage": "https://github.com/ccarcaci/spec-md#readme",
+  "dependencies": {
+    "@bitacode/spec-md": "file:bitacode-spec-md-3.0.2.tgz"
+  }
+}
