@@ -1,4 +1,7 @@
-# Spec Markdown
+Spec Markdown
+=============
+
+This project is a fork of the original [spec-md](https://www.npmjs.com/package/spec-md) project.
 
 Renders Markdown with some additions into an HTML format commonly used for
 writing technical specification documents. Markdown additions include code
@@ -54,6 +57,9 @@ Spec Markdown also provides utilities for generating and operating on an
 intermediate representation of the markdown, which you can explore in
 [Using Spec Markdown](./spec/Usage.md#Using-Spec-Markdown).
 
+# Typescript support
+
+Typescript support has been added to the library providing [index.d.ts](index.d.ts) definition file. 
 
 # [Markdown](./spec/Markdown.md)
 
