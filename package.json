@@ -1,20 +1,20 @@
 {
-  "name": "spec-md",
+  "name": "@bitacode/spec-md",
   "version": "3.0.2",
-  "author": "Lee Byron <lee@leebyron.com> (http://leebyron.com/)",
+  "author": "ccarcaci",
   "license": "MIT",
-  "homepage": "https://spec-md.com",
   "bugs": {
-    "url": "https://github.com/leebyron/spec-md/issues"
+    "url": "https://github.com/ccarcaci/spec-md/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:leebyron/spec-md.git"
+    "url": "git@github.com:ccarcaci/spec-md.git"
   },
   "bin": {
     "spec-md": "bin/spec-md"
   },
   "main": "./src/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "build": "node scripts/build.js",
     "generate": "mkdir -p out && ./bin/spec-md -m spec/metadata.json README.md > out/index.html",
@@ -37,7 +37,7 @@
   "files": [
     "bin",
     "src",
-    "static",
+    "index.d.ts",
     "LICENSE"
   ],
   "keywords": [
