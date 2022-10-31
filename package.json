@@ -23,7 +23,6 @@
     "watch": "nodemon -w bin/spec-md -w . -e css,js,json,pegjs,md --ignore src/generated --exec 'npm test'"
   },
   "dependencies": {
-    "@bitacode/spec-md": "file:integration/bitacode-spec-md-3.0.2.tgz",
     "prismjs": "^1.23.0"
   },
   "devDependencies": {
